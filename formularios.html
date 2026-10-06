@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+</head>
+<body>
+    <h1>formulari de resistrar-se</h1>
+    <form action="">
+        <label for="nom">Nom:</label><br />
+        <input type="text" name="nom" id="nom" /><br>
+        <label for="cognoms">cognoms:</label><br>
+        <input type="text" name="cognoms" id="cognoms"><br>
+        
+        <label for="email">email</label><br>
+        <input type="email" name="email" id="email" required placeholder="nom@exemple.com"><br>
+        
+        <label for="contraseña">contraseña</label><br>
+        <input type="password" name="contraseña" id="contraseña"><br>
+        
+        <label for="data">data</label><br>
+        <input type="date" name="data naixament" id="data naixament"><br>
+      
+        <label>Gènere</label><br>
+        <input type="radio" name="genere" id="home" />
+        <label for="home">home</label><br>
+        <input type="radio" name="genere" id="dona" />
+        <label for="dona">dona</label><br>
+        <input type="radio" name="genere" id="altre" />
+        <label for="altre">altre</label><br>
+        
+        <label for="pais">selecciona pais</label><br>
+        <select name="pais de residencia" name="pais" id="pais">
+            <option value="--SELECCIONA UN PAIS--"></option>
+            <option value="ES">espanya</option>
+            <option value="FR">frància</option>
+            <option value="IT">itàlia</option>
+        </select><br>
+        <label for="">tecnologia</label>
+        <input type="checkbox" name="interesos" id="tecnologia"><br>
+        <label for="">musica</label>
+        <input type="checkbox" name="interesos" id="múscica"><br>
+        <label for="">esport</label>
+        <input type="checkbox" name="interesos" id="esports"><br>
+        
+        <label for="missatge">comentaris adicional</label>
+        <textarea name="missatge" id="missatge" rows="4" cols="40" placeholder="escriu el teu missatge aqui"></textarea>
+        <button type="submit">Enviar</button>
+        <button type="reset">netejar formulari</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="calculos.js"></script>
+    <style>
+        #encabezado{
+            background-image: url(fotos/banderaog.jpg);
+            height: 60px;
+            color: rgb(84, 117, 50); 
+        }
+    </style>
+</head>
+<body>
+    <div id="encabezado">
+    <h1><b>Cálculo de precio con descuento</b></h1>
+    </div>
+
+    <label for="precio">Precio base (€): </label>
+    <input type="number" id="precio">
+    <br><br/>
+    
+    <label for="">Es residente?</label><br>
+    <input type="radio" name="a" id="radioSI">
+    <label for="">si</label>
+    <input type="radio" name="a" id="radioNO">
+    <label for="">no</label>
+    <br><br/>
+
+    <label for="">Tiene alguna discapacidad?</label><br>
+    <input type="radio" name="b" id="disSI">
+    <label for="">si</label>
+    <input type="radio" name="b" id="disNO">
+    <label for="">no</label>
+    <input type="radio" name="b" id="disME">
+    <label for="">menos del 33%</label>
+    <br><br/>
+    
+    
+    <button type="button" onclick="calcularPrecio()">Calcular precio final</button>
+    <br><br/>
+
+<img src="fotos/dinero.jfif" width="300px">  
+<br><br/> 
+
+<a href="https://tse2.mm.bing.net/th/id/OIF.5v6VUVoH6JDftpnaFphkcg?r=0&rs=1&pid=ImgDetMain&o=7&rm=3">.</a>
+</body>
+</html>
